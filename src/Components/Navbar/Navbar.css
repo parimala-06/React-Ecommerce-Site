@@ -20,6 +20,7 @@
     padding-left: 6px;
     font-size: 20px;
     font-weight: 600;
+    color: black;
 }
 .nav-login-cart{
     display: flex;
@@ -27,9 +28,9 @@
     gap: 45px;
 }
 .nav-login-cart button{
-    width: 130px;
-    height: 40px;
-    font: 40px;
+    width: 120px;
+    height: 50px;
+    font-size: 16px;
     font-weight: 600;
     outline: none;
     border: 1px solid #65B741;
