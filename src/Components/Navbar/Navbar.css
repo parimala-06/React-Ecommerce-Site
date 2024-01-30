@@ -1,8 +1,8 @@
 .navbar{
-    background-color: #65B741;
+    background-color: #72d149;
     display: flex;
     justify-content: space-around;
-    padding: 16px;
+    padding: 10px;
     box-shadow: 0 1px 3px -2px black;
 }
 .nav-log{
@@ -16,7 +16,7 @@
 }
 .nav-logo p{ 
     float: right;
-    padding-top: 12px;
+    padding-top: 32px;
     padding-left: 6px;
     font-size: 20px;
     font-weight: 600;
@@ -33,8 +33,8 @@
     font-size: 16px;
     font-weight: 600;
     outline: none;
-    border: 1px solid #65B741;
-    background-color: #65B741;
+    border: 1px solid #72d149;
+    background-color: #72d149;
     border-radius: 75px;
     cursor: pointer;
 }

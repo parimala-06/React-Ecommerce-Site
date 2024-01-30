@@ -1,0 +1,47 @@
+.glorify{
+    height: 100hv;
+    background: linear-gradient(180deg, #8df5fe, #e1ffea22 60%);
+    display: flex;
+}
+.glorify-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+    padding-left: 150px;
+    line-height: 1.1;
+}
+.glorify-left h2{
+    font-size: 26px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.glorify-left p{
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.icon-1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.icon-2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.glorify-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+
+}
+.glorify-img{
+    width: 700px;
+    height: 500px;
+}
