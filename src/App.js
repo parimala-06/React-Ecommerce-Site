@@ -1,6 +1,7 @@
 
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer/Footer'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Shop from './Pages/Shop';
 import Product from './Pages/Product';
@@ -18,7 +19,7 @@ function App() {
       <Route path='/cart' element = {<Cart/>}/>
       <Route path='/login' element = {<LoginSignUp/>}/>
     </Routes>
-
+    <Footer />
     </BrowserRouter>
     </div>
   );
