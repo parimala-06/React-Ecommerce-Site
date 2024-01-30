@@ -1,0 +1,58 @@
+.navbar{
+    background-color: #65B741;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px black;
+}
+.nav-log{
+    display: inline-flex;
+    align-items:center;
+    gap: 10px;
+}
+.nav-logo img{
+    width: 100px;
+    height: 60px;
+}
+.nav-logo p{ 
+    float: right;
+    padding-top: 12px;
+    padding-left: 6px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.nav-login-cart button{
+    width: 130px;
+    height: 40px;
+    font: 40px;
+    font-weight: 600;
+    outline: none;
+    border: 1px solid #65B741;
+    background-color: #65B741;
+    border-radius: 75px;
+    cursor: pointer;
+}
+.nav-login-cart button:hover{
+    background-color: #C1F2B0;
+}
+.nav-login-cart button:active{
+    background-color: #c8efbc;
+}
+.nav-cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background-color: #C1F2B0;
+    color: black;
+}
