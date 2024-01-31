@@ -5,8 +5,8 @@
     padding: 10px;
     box-shadow: 0 1px 3px -2px black;
 }
-.nav-log{
-    display: inline-flex;
+.nav-logo{
+    display: flex;
     align-items:center;
     gap: 10px;
 }
