@@ -8,7 +8,6 @@ function Shop(){
         <div>
             <Glorify/>
             <Popular/>
-            <Product/>
         </div>
     );
 }

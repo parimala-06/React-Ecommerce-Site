@@ -1,4 +1,3 @@
-
 import pic1 from './Product1.png';
 import pic2 from './Product2.png';
 import pic3 from './Product3.png';

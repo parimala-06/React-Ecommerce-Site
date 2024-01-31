@@ -7,11 +7,16 @@ import Shop from './Pages/Shop';
 import Product from './Pages/Product';
 import Cart from './Pages/Cart';
 import LoginSignUp from './Pages/LoginSignUp';
+import ShopContextProvider, { ShopContext } from './Context/ShopContext';
+import { useContext } from 'react';
+import allProducts from './Components/Assets/allProducts';
 
 function App() {
+  const {allProducts} = useContext(ShopContext);
   return (
     <div>
     <BrowserRouter>
+    <ShopContextProvider>
     <Navbar />
     <Routes>
       <Route path='/' element = {<Shop/>}/>
@@ -22,6 +27,7 @@ function App() {
       <Route path='/login' element = {<LoginSignUp/>}/>
     </Routes>
     <Footer/>
+    </ShopContextProvider>
     </BrowserRouter>
     </div>
   );
