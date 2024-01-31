@@ -9,6 +9,7 @@ import { FaLinkedin } from "react-icons/fa";
 function Footer(){
     const year = new Date().getFullYear();
     return(
+        <footer>
         <div className="footer">
             <ul className="footer-links">
                 <li>Company</li>
@@ -27,6 +28,7 @@ function Footer(){
                 <p>&copy;{year}vitobafoods . All rights reserved</p>
             </div>
         </div>
+        </footer>
     );
 }
 export default Footer;
