@@ -1,4 +1,6 @@
-import React from "react";
+import React, {useContext} from "react";
+import {ShopContext} from '../Context/ShopContext';
+import {useParams} from 'react-router-dom';
 import './Css/Product.css';
 import img1 from '../Components/Assets/ProductFront1.jpg';
 import img2 from '../Components/Assets/ProductBack.png';
@@ -8,12 +10,23 @@ import { IoStarHalf } from "react-icons/io5";
 
 function Product(){
 
+    const {allProducts} = useContext(ShopContext);
+    const {productId} = useParams();
+    const product = allProducts.find((e)=> e.id === Number(productId));
+
+    return(
+        <div>
+            
+        </div>
+    )
+
     function addDays() {
         var result = new Date();
         result.setDate(result.getDate() + 3);
         return result.toDateString();
       }
     const date = addDays();
+
     return(
         <div className="productdisplay">
             <div className="productdisplay-left">
