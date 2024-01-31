@@ -1,10 +1,9 @@
 import React from "react";
 import './Footer.css';
-import trials from '../Assets/trials2.png';
-import { FaFacebookF } from "react-icons/fa";
-import { AiFillInstagram } from "react-icons/ai";
-import { FaTwitter } from "react-icons/fa"
-import { FaLinkedinIn } from "react-icons/fa6";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaTwitterSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 
 function Footer(){
@@ -19,10 +18,10 @@ function Footer(){
                 <li>Contact</li>
             </ul>
             <div className="footer-icons">
-                <div className="icon-container"><FaFacebookF size={22}/></div>         
-                <div className="icon-container"><AiFillInstagram size={24}/></div>
-                <div className="icon-container"><FaLinkedinIn size={22}/></div>
-                <div className="icon-container"><FaTwitter size={18}/></div>
+                <div className="icon-container"><FaFacebookSquare size={22}/></div>         
+                <div className="icon-container"><FaInstagramSquare size={22}/></div>
+                <div className="icon-container"><FaLinkedin size={22}/></div>
+                <div className="icon-container"><FaTwitterSquare size={22}/></div>
             </div>
             <div className="bottom-bar">
                 <p>&copy;{year}vitobafoods . All rights reserved</p>
