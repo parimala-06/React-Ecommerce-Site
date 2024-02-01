@@ -6,7 +6,7 @@ import Item from '../Item/Item';
 function Popular(){
     return(
         <div className='popular'>
-            <h1>OUR PRODUCTS</h1>
+            <h1>OUR PRODUCTS</h1> 
             <hr/>
             <div className='popular-items'>
                 {allProducts.map((item,i)=>{

@@ -16,8 +16,8 @@ function Glorify(){
                     </div>
                     <br/>
                     <div className="icon-2">
-                    <h2>made with mom's </h2>
-                        <FcLike size={50}/>
+                    <h2>made with mom's 💖</h2>
+                         {/* <FcLike size={50}/>  */}
                     </div>
                     <h2>Be Happy & Be Healthy</h2>
                 </div>
