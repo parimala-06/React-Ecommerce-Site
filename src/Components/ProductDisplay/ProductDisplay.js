@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import './ProductDisplay.css';
 import { IoStar } from "react-icons/io5";
 import { IoStarHalf } from "react-icons/io5";
+import { ShopContext } from "../../Context/ShopContext";
 
 function ProductDisplay(props){
  const {product} = props;
+ const {addToCart} = useContext(ShopContext)
 
 function addDays() {
     var result = new Date();
@@ -49,7 +51,7 @@ return(
                     <div>1kg</div>
                 </div>
             </div>
-            <button>ADD TO CART</button>
+            <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
             <p className="productdisplay-right-date">Get it by,<span> {date}</span></p>
         </div>
     </div>
