@@ -8,13 +8,11 @@ function Navbar() {
     return(
         <div className="navbar">
             <div className="nav-logo">
-                <Link style={{textDecoration: 'none'}} to='/product'>
-                    <img src={trials} alt="Logo"/>
-                </Link>
+                <img src={trials} alt="Logo"/>
             </div>
             <div className="nav-login-cart">
-                <Link style={{textDecoration: 'none'}} to='/login'><button>Login</button></Link>
-                <Link style={{textDecoration: 'none'}} to='/login'><button>Login</button></Link>
+                <Link style={{textDecoration: 'none'}} to='/carousle'><button>Goodness</button></Link>
+                <Link style={{textDecoration: 'none'}} to='/display'><button>Products</button></Link>
                 <Link style={{textDecoration: 'none'}} to='/login'><button>Login</button></Link>
                 <Link style={{textDecoration: 'none'}} to='/cart'><FaShoppingCart size={30} color="black"/></Link>
                 <div className="nav-cart-count">0</div>
