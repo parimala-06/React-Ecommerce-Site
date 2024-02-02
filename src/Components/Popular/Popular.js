@@ -10,7 +10,7 @@ function Popular(){
             <hr/>
             <div className='popular-items'>
                 {allProducts.map((item,i)=>{
-                    return <Item key = {i} id={item.id} name={item.title} image={item.image} newprice={item.newprice} oldprice={item.oldprice}/>
+                    return <Item key = {i} id={item.id} name={item.title} image={item.image} oldprice={item.oldprice} newprice={item.newprice} />
                 })}
             </div>
         </div>

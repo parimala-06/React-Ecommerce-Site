@@ -11,13 +11,12 @@ function Item(props){
         </Link>
             <p>{props.name}</p>
             <div className='item-prices'>
-                <div className='item-price-new'>
-                ₹{props.newprice}
-                </div>
                 <div className='item-price-old'>
-                ₹{props.oldprice}
+                    ₹{props.oldprice}
                 </div>
-
+                <div className='item-price-new'>
+                    ₹{props.newprice}
+                </div>
             </div>
         </div>
     );

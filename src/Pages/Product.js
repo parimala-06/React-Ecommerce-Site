@@ -4,6 +4,7 @@ import {useParams} from 'react-router-dom';
 import './Css/Product.css';
 import BreadCrumb from "../Components/BreadCrumb/BreadCrumb";
 import ProductDisplay from '../Components/ProductDisplay/ProductDisplay';
+import DescriptionBox from "../Components/DescriptionBox/DescriptionBox";
 
 
 
@@ -17,6 +18,7 @@ function Product(){
         <div>
             <BreadCrumb product = {product}/>
             <ProductDisplay product = {product}/>
+            <DescriptionBox/>
         </div>
     )
 }
