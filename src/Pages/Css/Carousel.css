@@ -1,18 +1,19 @@
 .carousel-container {
-    margin: 100px 100px;
-    height: 40vh;
-  }
-  
-  .carousel-item {
-    align-items: center;
-    justify-content: center;
-    height: 250px;
-    text-align: center;
-    padding: 20px 20px;
-  }
-  
-  .carousel-item img {
-    width: 150px;
-    height: 150px;
-  }
-  
+  width: 80%;
+  margin: auto;
+  height: 70vh;
+}
+
+.carousel-item {
+  text-align: center;
+  padding: 20px;
+  margin-right: 10px; /* Add margin between items */
+  background-color: lightgreen;
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for a subtle lift effect */
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: 200px;
+}

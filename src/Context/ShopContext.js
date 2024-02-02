@@ -35,8 +35,18 @@
         }
         return totalAmount;
     }
+
+    function getTotalCartItem(){
+        let totalItem = 0;
+        for (const item in cartItems){
+            if (cartItems[item]>0){
+                totalItem += cartItems[item];
+            }
+        }
+        return totalItem;
+    }
     
-    const contextValue = {allProducts, cartItems, addToCart, removefromCart, getTotalCartAmount};
+    const contextValue = {allProducts, cartItems, addToCart, removefromCart, getTotalCartAmount, getTotalCartItem};
     return(
         <ShopContext.Provider value={contextValue}>
             {props.children}
