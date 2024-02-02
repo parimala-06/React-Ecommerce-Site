@@ -1,7 +1,6 @@
 import React, {useContext} from "react";
 import {ShopContext} from '../Context/ShopContext';
 import {useParams} from 'react-router-dom';
-import './Css/Product.css';
 import BreadCrumb from "../Components/BreadCrumb/BreadCrumb";
 import ProductDisplay from '../Components/ProductDisplay/ProductDisplay';
 import DescriptionBox from "../Components/DescriptionBox/DescriptionBox";

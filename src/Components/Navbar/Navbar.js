@@ -8,7 +8,9 @@ function Navbar() {
     return(
         <div className="navbar">
             <div className="nav-logo">
+            <Link to='/'>
                 <img src={trials} alt="Logo"/>
+            </Link>
             </div>
             <div className="nav-login-cart">
                 <Link style={{textDecoration: 'none'}} to='/carousle'><button>Goodness</button></Link>
