@@ -1,7 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
 import ingredients from '../Components/Assets/Ingreditents'; // Assuming you have your data in a separate file
-
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './Css/Carousel.css'; // You can create a CSS file for styling
@@ -13,6 +12,8 @@ const Carousel = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    autoplay: true, // Enable automatic sliding
+    autoplaySpeed: 3000,
     responsive: [
       {
         breakpoint: 1024,

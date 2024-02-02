@@ -1,18 +1,18 @@
 .carousel-container {
-    width: 100%;
-    margin-top: 200px;
-    height: 90vh;
+    margin: 100px 100px;
+    height: 40vh;
   }
   
   .carousel-item {
-    height: 300px;
-    width: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
     text-align: center;
-    padding: 20px;
+    padding: 20px 20px;
   }
   
   .carousel-item img {
-    max-width: 100%;
-    height: auto;
+    width: 150px;
+    height: 150px;
   }
   
