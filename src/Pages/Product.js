@@ -1,9 +1,9 @@
 import React, {useContext} from "react";
-import {ShopContext} from '../Context/ShopContext';
+import {ShopContext} from '../Context/ShopContext.js';
 import {useParams} from 'react-router-dom';
-import BreadCrumb from "../Components/BreadCrumb/BreadCrumb";
-import ProductDisplay from '../Components/ProductDisplay/ProductDisplay';
-import DescriptionBox from "../Components/DescriptionBox/DescriptionBox";
+import BreadCrumb from "../Components/BreadCrumb/BreadCrumb.js";
+import ProductDisplay from '../Components/ProductDisplay/ProductDisplay.js';
+import DescriptionBox from "../Components/DescriptionBox/DescriptionBox.js";
 
 
 

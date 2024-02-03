@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import './ProductDisplay.css';
 import { IoStar } from "react-icons/io5";
 import { IoStarHalf } from "react-icons/io5";
-import { ShopContext } from "../../Context/ShopContext";
+import { ShopContext } from "../../Context/ShopContext.js";
 
 function ProductDisplay(props){
  const {product} = props;

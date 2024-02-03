@@ -1,16 +1,16 @@
 
 import './App.css';
-import Navbar from './Components/Navbar/Navbar';
-import Footer from './Components/Footer/Footer'
+import Navbar from './Components/Navbar/Navbar.js';
+import Footer from './Components/Footer/Footer.js'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import Shop from './Pages/Shop';
-import Product from './Pages/Product';
-import Cart from './Pages/Cart';
-import LoginSignUp from './Pages/LoginSignUp';
-import ShopContextProvider, { ShopContext } from './Context/ShopContext';
+import Shop from './Pages/Shop.js';
+import Product from './Pages/Product.js';
+import Cart from './Pages/Cart.js';
+import LoginSignUp from './Pages/LoginSignUp.js';
+import ShopContextProvider, { ShopContext } from './Context/ShopContext.js';
 import { useContext } from 'react';
-import Display from './Pages/Display';
-import Goodness from './Pages/Goodness';
+import Display from './Pages/Display.js';
+import Goodness from './Pages/Goodness.js';
 
 
 function App() {
