@@ -7,14 +7,12 @@ import Shop from './Pages/Shop.js';
 import Product from './Pages/Product.js';
 import Cart from './Pages/Cart.js';
 import LoginSignUp from './Pages/LoginSignUp.js';
-import ShopContextProvider, { ShopContext } from './Context/ShopContext.js';
-import { useContext } from 'react';
+import ShopContextProvider from './Context/ShopContext.js';
 import Display from './Pages/Display.js';
 import Goodness from './Pages/Goodness.js';
 
 
 function App() {
-  const {allProducts} = useContext(ShopContext);
   return (
     <div>
     <BrowserRouter>
