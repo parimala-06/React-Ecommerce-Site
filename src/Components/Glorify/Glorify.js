@@ -11,8 +11,7 @@ function Glorify(){
                 <h2>A Symphony of Love and Nutrients</h2>
                 <div>
                     <div className="icon-1">
-                        <p>Vitoba's Health Mix</p>
-                        <div className="tick"><FcApproval size={60}/></div> 
+                        <p> Vitoba's Health Mix <FcApproval size={35}/></p>
                     </div>
                     <br/>
                     <div className="icon-2">

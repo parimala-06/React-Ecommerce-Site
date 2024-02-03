@@ -1,7 +1,7 @@
 *{
   margin: 0;
   overflow-x: hidden;
-
+  overflow: visible;
 }
 *::-webkit-scrollbar {
   display: none;
@@ -25,4 +25,11 @@ html,body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@media (max-width:1024px){
+html,body{
+  margin: 0;
+  width: 100%;
+  overflow: visible;
+}
 }

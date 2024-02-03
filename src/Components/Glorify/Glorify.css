@@ -20,14 +20,14 @@
     padding-top: 20px;
 }
 .glorify-left p{
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
     padding-top: 20px;
 }
 .icon-1{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .icon-2{
@@ -48,4 +48,31 @@
 .glorify-img{
     width: 700px;
     height: 500px;
+}
+@media(max-width:1024px){
+    .glorify-left{
+        margin-top: 40px;
+        padding-top: 10px;
+        padding-left: 100px;
+    }
+    .glorify-right{
+        margin-top: 40px;
+        padding-top: 10px;
+        padding-right: 100px;
+
+    }
+    .glorify-img{
+        width: 400px;
+        height: 400px;
+    }
+    .glorify-left h2{
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 10px;
+    }
+    .glorify-left p{
+        font-size: 35px;
+        font-weight: 700;
+        padding-top: 10px;
+    }
 }
