@@ -8,18 +8,18 @@ function Glorify(){
     return(
         <div className="glorify">
             <div className="glorify-left">
-                <h2>So, begin your day with</h2>
+                <h2>A Symphony of Love and Nutrients</h2>
                 <div>
                     <div className="icon-1">
                         <p>Vitoba's Health Mix</p>
-                        <FcApproval size={60}/>
+                        <div className="tick"><FcApproval size={60}/></div> 
                     </div>
                     <br/>
                     <div className="icon-2">
-                    <h2>made with mom's 💖</h2>
+                    <h2>Feel the Warmth of Mom's Kitchen 💖</h2>
                          {/* <FcLike size={50}/>  */}
                     </div>
-                    <h2>Be Happy & Be Healthy</h2>
+                    <h2>in Every Multigrain Bite</h2>
                 </div>
             </div>
             <div className="glorify-right">

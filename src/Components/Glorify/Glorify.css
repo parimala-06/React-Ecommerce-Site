@@ -29,11 +29,13 @@
     align-items: center;
     gap: 20px;
 }
+
 .icon-2{
     display: flex;
     align-items: center;
     gap: 20px;
 }
+
 .glorify-right{
     flex: 1;
     display: flex;

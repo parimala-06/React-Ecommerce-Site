@@ -10,7 +10,7 @@ import LoginSignUp from './Pages/LoginSignUp';
 import ShopContextProvider, { ShopContext } from './Context/ShopContext';
 import { useContext } from 'react';
 import Display from './Pages/Display';
-import Carousel from './Pages/Carousel'
+
 
 function App() {
   const {allProducts} = useContext(ShopContext);
@@ -20,7 +20,6 @@ function App() {
     <ShopContextProvider>
     <Navbar />
     <Routes>
-      <Route path='/carousle' element={<Carousel/>}/>
       <Route path='/' element = {<Shop/>}/>
       <Route path='/display' element={<Display/>}/>
       <Route path='/product' element = {<Product/>}>
