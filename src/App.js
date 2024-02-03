@@ -10,6 +10,7 @@ import LoginSignUp from './Pages/LoginSignUp';
 import ShopContextProvider, { ShopContext } from './Context/ShopContext';
 import { useContext } from 'react';
 import Display from './Pages/Display';
+import Goodness from './Pages/Goodness';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
     <Navbar />
     <Routes>
       <Route path='/' element = {<Shop/>}/>
+      <Route path='/goodness' element={<Goodness/>}/>
       <Route path='/display' element={<Display/>}/>
       <Route path='/product' element = {<Product/>}>
         <Route path=':productId' element={<Product/>}/>

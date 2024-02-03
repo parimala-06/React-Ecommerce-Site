@@ -1,0 +1,29 @@
+.multigrain-goodness-article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  .article-image {
+    width: 800px;
+    max-height: 300px; /* Adjust the maximum height as needed */
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  .multigrain-goodness-article h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .multigrain-goodness-article p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  /* Additional styling for links or other elements can be added as needed */
+  

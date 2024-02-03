@@ -15,7 +15,7 @@ function Navbar() {
             </Link>
             </div>
             <div className="nav-login-cart">
-                <Link style={{textDecoration: 'none'}} to='/carousle'><button>Goodness</button></Link>
+                <Link style={{textDecoration: 'none'}} to='/goodness'><button>Goodness</button></Link>
                 <Link style={{textDecoration: 'none'}} to='/display'><button>Products</button></Link>
                 <Link style={{textDecoration: 'none'}} to='/login'><button>Login</button></Link>
                 <Link style={{textDecoration: 'none'}} to='/cart'><FaShoppingCart size={30} color="black"/></Link>
