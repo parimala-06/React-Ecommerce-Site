@@ -2,6 +2,7 @@ import React from "react";
 import Glorify from "../Components/Glorify/Glorify";
 import Popular from "../Components/Popular/Popular";
 import Carousel from "../Components/Assets/Carousel/Carousel";
+import DescriptionBox from '../Components/DescriptionBox/DescriptionBox'
 
 function Shop(){
     return(
@@ -9,6 +10,7 @@ function Shop(){
             <Glorify/>
             <Carousel/>
             <Popular/>
+            <DescriptionBox/>
         </div>
     );
 }
