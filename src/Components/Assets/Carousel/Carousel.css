@@ -98,3 +98,8 @@
         margin: 0px 5px;
     }
 }
+@media(max-width:425px){
+    .container{
+        display: none;
+}
+}

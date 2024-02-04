@@ -65,3 +65,22 @@
         font-size: 14px;
     }
 }
+@media(max-width:450px){
+    .item{
+        width: 230px;
+    }
+    .item img{
+        width: 200px;
+        height: 280px;
+        border: 3px solid black;
+    }
+    .item p{
+        font-size: 16px;
+    }
+    .item-price-new{
+        font-size: 16px;
+    }
+    .item-price-old{
+        font-size: 16px;
+    }
+}

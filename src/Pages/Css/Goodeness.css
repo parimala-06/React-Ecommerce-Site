@@ -49,4 +49,24 @@
       line-height: 1.5;
     }
   }
+  @media(max-width:425px){
+    .multigrain-goodness-article {
+      max-width: 300px;
+      padding: 15px;
+  
+    }
+    .article-image {
+      width: 300px;
+      max-height: 250px;
+    }
+    .multigrain-goodness-article h2 {
+      font-size: 16px;
+    }
+    
+    .multigrain-goodness-article p {
+      font-size: 13px;
+      line-height: 1.5;
+    }
+  }
+  
   

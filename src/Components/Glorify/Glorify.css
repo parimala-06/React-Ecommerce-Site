@@ -100,3 +100,36 @@
         font-size: 25px;
     }
 }
+@media(max-width:500px){
+    .glorify{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .glorify-left{
+        text-align: center;
+        padding-left:0 ;
+        margin-top: 30px;
+        padding-top: 0px;
+        gap: 0px;
+    }
+    .icon-1{
+        display: block;
+    }
+    .icon-2{
+        display: block;
+    }
+    .glorify-left h2{
+        font-size: 14px;
+    }
+    .glorify-left p{
+        font-size: 20px;
+    }
+    .glorify-right{
+        padding-right:0 ;
+    }
+    .glorify-img{
+        width: 250px;
+        height: 250px;
+    }
+}
