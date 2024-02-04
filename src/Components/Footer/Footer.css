@@ -49,3 +49,12 @@
     margin-bottom: 10pxpx;
     font-size: 14px;
 }
+@media(max-width:1024px){
+    .footer-links{
+        font-size: 14px;
+        gap: 40px;
+    }
+    .bottom-bar{
+        font-size: 12px;
+    }
+}

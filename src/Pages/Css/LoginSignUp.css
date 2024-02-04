@@ -64,7 +64,8 @@
 
 @media(max-width:1024px){
     .loginsignup{
-        height: 80vh;
+        height: 75vh;
+        padding-top: 50px;
     }
     .loginsignup-container{
         width: 380px;

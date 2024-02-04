@@ -32,32 +32,21 @@
   
   @media(max-width:1024px){
     .multigrain-goodness-article {
-      max-width: 650px;
-      margin: auto;
-      padding: 20px;
-      font-family: 'Arial', sans-serif;
-      color: #333;
+      max-width: 550px;
+      padding: 15px;
   
     }
     .article-image {
-      width: 650px;
-      max-height: 250px; /* Adjust the maximum height as needed */
-      object-fit: cover;
+      width: 550px;
+      max-height: 250px;
     }
     .multigrain-goodness-article h2 {
-      text-align: center;
       font-size: 18px;
-      font-weight: 700;
-      color: #000000;
-      margin-bottom: 10px;
     }
     
     .multigrain-goodness-article p {
-      text-align: justify;
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 1.6;
-      margin-bottom: 15px;
+      font-size: 14px;
+      line-height: 1.5;
     }
   }
   
