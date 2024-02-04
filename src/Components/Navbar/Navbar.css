@@ -52,14 +52,24 @@
 
 @media(max-width:1024px){
     .navbar{
-        padding: 12px 5px;
+        padding: 8px 5px;
     }
     .nav-cart-cart{
         gap: 5px;
     }
-    .nav-cart-cart button{
-        width: 60px;
-        height: 25px;
+    .nav-logo img{
+        width: 75px;
+        height: 40px;
+    }
+    .nav-login-cart button{
+        width: 85px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .nav-cart-count{
+        width: 20px;
+        height: 20px;
+        border-radius: 11px;
         font-size: 12px;
     }
 }
