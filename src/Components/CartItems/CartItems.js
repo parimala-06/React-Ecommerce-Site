@@ -8,11 +8,11 @@ function CartItems(){
     return(
         <div className="cartitems">
             <div className="cartitems-format-main">
-                <p>Products</p>
+                <p className="format-image">Products</p>
                 <p>Title</p>
                 <p>Price</p>
-                <p>Quantity</p>
-                <p>Total Price</p>
+                <p>Qty</p>
+                <p>Total</p>
                 <p>Remove</p>
             </div>
             <hr/>
