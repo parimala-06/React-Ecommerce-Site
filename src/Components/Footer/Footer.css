@@ -58,3 +58,12 @@
         font-size: 12px;
     }
 }
+@media(max-width:768px){
+    .footer-links{
+        font-size: 13px;
+        gap: 30px;
+    }
+    .bottom-bar{
+        font-size: 10px;
+    }
+}

@@ -33,3 +33,11 @@
         background: #252525;
     }
 }
+@media(max-width:768px){
+    .popular{
+        padding-top: 40px;
+    }
+    .popular-items{
+        margin: 20px;
+    }
+}

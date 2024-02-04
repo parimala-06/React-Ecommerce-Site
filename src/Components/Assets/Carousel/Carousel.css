@@ -55,6 +55,7 @@
     .container{
         margin: 115px 80px;
     }
+    
     .carousel-text h3{
         font-size: 16px;
         font-weight: 600px;   
@@ -66,5 +67,34 @@
         font-size: 14px;
         margin: 10px 10px;
     
+    }
+}
+@media(max-width:768px){
+    .container{
+        margin: 10px 40px;
+    }
+    .carousel-item{
+        height: 300px;
+        margin-bottom: 10px;
+    }
+    .c-image{
+        height: 120px;        
+    }
+
+    .carousel-item img{
+        width: 110px;
+        height: 110px;
+    }
+    .carousel-text h3{
+        font-size: 14px; 
+    
+    }
+    .carousel-text p{
+        font-size: 14px;
+        margin: 5px 5px;
+    
+    }
+    .slick-slide > div{
+        margin: 0px 5px;
     }
 }

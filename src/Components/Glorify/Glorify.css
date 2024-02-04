@@ -76,3 +76,27 @@
         padding-top: 10px;
     }
 }
+@media(max-width:768px){
+    .glorify-left{
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-left: 80px;
+    }
+    .glorify-right{
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-right: 80px;
+
+    }
+    .glorify-img{
+        width: 300px;
+        height: 300px;
+    }
+    .glorify-left h2{
+        font-size: 16px;
+        padding-top: 8px;
+    }
+    .glorify-left p{
+        font-size: 25px;
+    }
+}
