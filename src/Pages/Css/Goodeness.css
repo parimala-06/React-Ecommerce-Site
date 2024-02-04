@@ -49,7 +49,7 @@
       line-height: 1.5;
     }
   }
-  @media(max-width:425px){
+  @media(max-width:500px){
     .multigrain-goodness-article {
       max-width: 300px;
       padding: 15px;
