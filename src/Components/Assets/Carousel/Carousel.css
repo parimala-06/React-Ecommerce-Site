@@ -18,11 +18,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .carousel-item img{
     width: 155px;
     height: 155px;
-    border-radius: 100px ;
+    border: 5px solid white;
+    border-radius: 50%;
 }
 .carousel-text{
     display: flex;

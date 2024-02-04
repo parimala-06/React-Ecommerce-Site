@@ -61,3 +61,39 @@
     font-size: 14px;
     font-weight: 500;
 }
+
+@media(max-width:1024px){
+    .loginsignup{
+        height: 80vh;
+    }
+    .loginsignup-container{
+        width: 380px;
+        height: 400px;
+        padding: 10px 40px;
+    }
+    .loginsignup-container h1{
+        font-size: 20px;
+        margin: 13px 0px ;
+    }
+    .loginsignup-fields{
+        gap: 15px;
+        margin-top: 20px;
+    }
+    .loginsignup-fields input{
+        height: 40px;
+        padding-left: 10px;
+        font-size: 14px;
+    }
+    .loginsignup-container button{
+        width: 393px;
+        height: 50px;
+    }
+    .loginsignup-login{
+        font-size: 13px;
+    }
+    .loginsignup-agree{
+        font-size: 12px;
+        gap: 10px;
+    }
+    
+}
