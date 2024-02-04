@@ -18,10 +18,11 @@ const date = addDays();
 return(
     <div className="productdisplay">
         <div className="productdisplay-left">
-            <div className="productdisplay-img-list">
+
+            {/* <div className="productdisplay-img-list">
                 <img src={product.image} alt="front"/>
                 <img src={product.image} alt="front"/>
-            </div>
+            </div> */}
             <div className="productdisplay-img">
                 <img className="productdisplay-main-img" src={product.image} alt="main"/>
             </div>
