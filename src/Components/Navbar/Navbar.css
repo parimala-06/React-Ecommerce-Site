@@ -49,6 +49,9 @@
     background-color: rgb(182, 254, 230);
     color: black;
 }
+.nav-dropdown{
+    display: none;
+}
 
 @media(max-width:1024px){
     .navbar{
@@ -71,6 +74,9 @@
         height: 20px;
         border-radius: 11px;
         font-size: 12px;
+    }
+    .nav-dropdown{
+        display: none;
     }
 }
 @media(max-width:768px){
@@ -96,4 +102,13 @@
         border-radius: 11px;
         font-size: 10px;
     }
+    .nav-dropdown{
+        display: none;
+    }
+}
+@media(max-width:425px){
+    .navbar{
+        padding: 10px 2px;
+    }
+    
 }
