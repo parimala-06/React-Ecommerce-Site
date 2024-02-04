@@ -73,3 +73,27 @@
         font-size: 12px;
     }
 }
+@media(max-width:768px){
+    .navbar{
+        padding: 5px 3px;
+    }
+    .nav-cart-cart{
+        gap: 10px;
+    }
+    .nav-logo img{
+        width: 65px;
+        height: 35px;
+    }
+    .nav-login-cart button{
+        width: 70px;
+        height: 35px;
+        padding: 5px;
+        font-size: 12px;
+    }
+    .nav-cart-count{
+        width: 15px;
+        height: 15px;
+        border-radius: 11px;
+        font-size: 10px;
+    }
+}
